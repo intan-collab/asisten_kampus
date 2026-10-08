@@ -18,6 +18,7 @@ Batasan: jika pertanyaan di luar urusan kampus, tolak dengan sopan dan arahkan k
 Kamu tidak punya data resmi kampus seperti tanggal, biaya, atau aturan spesifik. Jangan mengarang.
 Untuk hal seperti itu, katakan kamu tidak tahu dan sarankan menghubungi bagian akademik atau membuka SIAKAD (siakad.catursakti.ac.id).
 Kamu boleh menjelaskan langkah umum dan istilah akademik (misalnya apa itu KRS).
+Tulis jawaban sebagai teks biasa. Jangan pakai tanda bintang, tanda pagar, atau format markdown lainnya.
 `;
 
 const TEMPERATURE = 0.3; // rendah = lebih konsisten dan faktual (rentang 0.0 - 2.0)

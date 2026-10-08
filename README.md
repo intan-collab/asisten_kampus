@@ -92,15 +92,12 @@ Di bagian atas `index.js`:
 ## Tangkapan layar
 
 ### Tampilan awal
-![Tampilan awal](screenshots/tampilan-awal.png)
 <img width="1897" height="902" alt="Screenshot 2026-10-08 104836" src="https://github.com/user-attachments/assets/074db64a-1e80-42d0-8d42-da6f0a3f346e" />
 
 ### Percakapan dengan chatbot
-![Percakapan](screenshots/percakapan.png)
 <img width="1917" height="917" alt="Screenshot 2026-10-08 102616" src="https://github.com/user-attachments/assets/676f4c5c-3531-4219-9dda-490f96b65e3a" />
 
 ### Bot menolak topik di luar kampus
-![Penolakan topik](screenshots/penolakan-topik.png)
 <img width="1910" height="908" alt="Screenshot 2026-10-08 104949" src="https://github.com/user-attachments/assets/63de13e7-7335-459e-8b39-61b742e646b0" />
 
 

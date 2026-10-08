@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STMIK Catur Sakti Kendari | Asisten Kampus</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">STMIK Catur Sakti <span>Kendari</span></div>
+    <a class="siakad-link" href="https://siakad.catursakti.ac.id" target="_blank" rel="noopener">Masuk SIAKAD</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Bingung urusan kampus? Tanya Asisten Kampus.</h1>
+      <p>Informasi seputar KRS, jadwal kuliah, cuti akademik, dan surat keterangan untuk mahasiswa STMIK Catur Sakti Kendari, tersedia kapan saja.</p>
+      <button class="cta" id="hero-open">Mulai bertanya</button>
+    </section>
+
+    <section class="services">
+      <h2>Yang bisa ditanyakan</h2>
+      <!-- Ubah isi kartu ini sesuai layanan kampus yang ingin kamu tampilkan -->
+      <div class="service-grid">
+        <article><h3>KRS dan jadwal</h3><p>Cara dan waktu pengisian KRS, serta jadwal perkuliahan.</p></article>
+        <article><h3>Cuti akademik</h3><p>Syarat dan langkah mengajukan cuti kuliah.</p></article>
+        <article><h3>Surat keterangan</h3><p>Cara mengurus surat keterangan aktif kuliah.</p></article>
+        <article><h3>Kehidupan kampus</h3><p>Pertanyaan umum bagi mahasiswa baru.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© STMIK Catur Sakti Kendari. Untuk urusan resmi, hubungi bagian akademik atau buka SIAKAD.</p>
+  </footer>
+
+  <!-- Widget chatbot -->
+  <button class="chat-toggle" id="chat-toggle" aria-label="Buka chat Asisten Kampus" aria-expanded="false">Tanya Asisten</button>
+
+  <section class="chat-panel" id="chat-panel" aria-label="Asisten Kampus" hidden>
+    <header class="chat-header">
+      <div>
+        <strong>Asisten Kampus</strong>
+        <span>STMIK Catur Sakti Kendari</span>
+      </div>
+      <button id="chat-close" aria-label="Tutup chat">Tutup</button>
+    </header>
+    <div id="chat-box" class="chat-box" aria-live="polite"></div>
+    <form id="chat-form" class="chat-form">
+      <input type="text" id="user-input" placeholder="Tulis pertanyaanmu" autocomplete="off" required />
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
